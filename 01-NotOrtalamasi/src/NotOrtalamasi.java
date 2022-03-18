@@ -10,9 +10,9 @@ public class NotOrtalamasi {
         Scanner input = new Scanner(System.in);//Scanner sınıfının input adında bir nesnesini yarattım.
 
         //Kullanıcıdan değerleri al:
-        System.out.print("Matematik Notunuzu Giriniz:");
-        matematik = input.nextInt();
-        System.out.println("Matematik Notunuz:"+matematik);
+        System.out.print("Matematik Notunuzu Giriniz:");//Ekrana Matematik Notunuzu Giriniz: yazırdık.
+        matematik = input.nextInt();//Ekrandan girilen integer value yı , integer data type matematik variable ına assign ettik.
+        System.out.println("Matematik Notunuz:"+matematik);//Ekrana Matematik Notunuz:<matematik değişkenine atadığımz değer> olacak şekilde yazdırdık.
 
         System.out.print("Fizik Notunuzu Giriniz:");
         fizik = input.nextInt();
