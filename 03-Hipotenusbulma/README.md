@@ -10,4 +10,4 @@
 - Alan * Alan = 𝑢 * (𝑢 − 𝑎)* (𝑢 − 𝑏) * (𝑢 − 𝑐)
 
 
-`Code src klasörünün altında Hipotenus.java dsoyasındadır.`
+`Code src klasörünün altında HipotenusBulma.java dsoyasındadır.`
