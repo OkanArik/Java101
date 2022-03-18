@@ -10,7 +10,7 @@ public class KDV {
             System.out.print("Ürünün KDV'siz fiyatını giriniz:");
             double kdvSizFiyat = input.nextDouble();
             String result=kdvSizFiyat<0 ? "Geçersiz fiyat girdiniz!": "İşlemler gerçekleştiriliyor:";
-            if(kdvSizFiyat>=0) {
+            if(kdvSizFiyat>=0) { // Buradadaki kontrolümle eğer geçersiz değer girilirse işlemleri yapmıcam.
                 System.out.println("KDV'siz tutar: " + kdvSizFiyat);
                 double kdvLiFiyat = kdvSizFiyat < 1000 ? (((kdvSizFiyat / 100) * 18) + kdvSizFiyat) : (((kdvSizFiyat / 100) * 8) + kdvSizFiyat);
                 System.out.println("KDV'li tutar : " + kdvLiFiyat);
