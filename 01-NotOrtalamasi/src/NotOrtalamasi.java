@@ -41,7 +41,7 @@ public class NotOrtalamasi {
         System.out.println("Not Ortalamanız:"+averageOfNotes);
 
         //Ortalama 50 den büyükse Geçti, küçükse kaldı yazdıralım:
-        String durum= averageOfNotes>50 ? "Geçti!":"Kaldı!";
+        String durum= averageOfNotes>=50 ? "Geçti!":"Kaldı!";//durum değişkenine averageOfNotes değişkenindeki değer 50 ye eşit veya büyükse Geçti! verisini atadık, aksi durumda ise Kaldı! verisini atadık.
         System.out.println(durum);
     }
 }
