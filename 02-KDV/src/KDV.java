@@ -8,7 +8,7 @@ public class KDV {
 
             Scanner input = new Scanner(System.in); //Programımıza nesnesini kullanarak veri girişi yapabilmek amacıyla Scanner sınıfının nesnesini yarattık.
 
-            double kdvSizFiyat, kdvLiFiyat,kdvFiyat,kdvOranı;//Kullanılacağım değişkenleri tanımladım.
+            double kdvSizFiyat, kdvLiFiyat,kdvFiyat,kdvOranı;//Kullanacağım değişkenleri tanımladım.
 
             System.out.print("Ürünün KDV'siz fiyatını giriniz:");
             kdvSizFiyat = input.nextDouble();
