@@ -9,17 +9,17 @@ public class TaksimetreHesabi {
             // Minimum ödenecek tutar 20 TL'dir. 20 TL altında ki ücretlerde yine 20 TL alınacaktır.
             // Taksimetre açılış ücreti 10 TL'dir.
 
-            double pricePerKm=2.20 , distanceInKm , totalPrice =10 , result;
-            int  lowestPrice=20;
+            double pricePerKm=2.20 , distanceInKm , totalPrice  , result;
+            int  startingPrice=10, lowestPrice=20;
 
             Scanner input = new Scanner(System.in);
 
             System.out.println("Taksimetre programı:");
 
-            System.out.print("Taksi ile yolculuk edilen mesafeyi giriniz :");
+            System.out.print("Taksi ile yolculuk edilen mesafeyi km cinsinden giriniz :");
             distanceInKm=input.nextDouble();
 
-            totalPrice += distanceInKm*pricePerKm;
+            totalPrice = startingPrice + distanceInKm*pricePerKm;
 
             result = totalPrice>lowestPrice ? totalPrice:lowestPrice;
 
