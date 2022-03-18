@@ -14,7 +14,7 @@ public class KullaniciGirisi {
 
                         if(password.equals(currentPassword)&&userName.equals((currentUserName))) {
                                 System.out.println("Giriş yaptınız!");
-                                count =3;
+                                break;
                         }
                         else
                         {
