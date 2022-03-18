@@ -9,10 +9,13 @@ public class KDV {
             Scanner input = new Scanner(System.in); //Programımıza nesnesini kullanarak veri girişi yapabilmek amacıyla Scanner sınıfının nesnesini yarattık.
             System.out.print("Ürünün KDV'siz fiyatını giriniz:");
             double kdvSizFiyat = input.nextDouble();
-            System.out.println("KDV'siz tutar: " + kdvSizFiyat);
-            double kdvLiFiyat = kdvSizFiyat < 1000 ? (((kdvSizFiyat / 100) * 18) + kdvSizFiyat) : (((kdvSizFiyat / 100) * 8) + kdvSizFiyat);
-            System.out.println("KDV'li tutar : " + kdvLiFiyat);
-            double kdvFiyat = kdvSizFiyat < 1000 ? (((kdvSizFiyat) / 100) * 18) : (((kdvSizFiyat) / 100) * 8);
-            System.out.println("KDV tutarı   : " + kdvFiyat);
+            String result=kdvSizFiyat<0 ? "Geçersiz fiyat girdiniz!": "İşlemler gerçekleştiriliyor:";
+            if(kdvSizFiyat>=0) {
+                System.out.println("KDV'siz tutar: " + kdvSizFiyat);
+                double kdvLiFiyat = kdvSizFiyat < 1000 ? (((kdvSizFiyat / 100) * 18) + kdvSizFiyat) : (((kdvSizFiyat / 100) * 8) + kdvSizFiyat);
+                System.out.println("KDV'li tutar : " + kdvLiFiyat);
+                double kdvFiyat = kdvSizFiyat < 1000 ? (((kdvSizFiyat) / 100) * 18) : (((kdvSizFiyat) / 100) * 8);
+                System.out.println("KDV tutarı   : " + kdvFiyat);
+            }
     }
 }
