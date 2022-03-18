@@ -32,7 +32,7 @@ public class HesapMakinasi {
                         {
                                 case 1:
                                         result=number1*number2;
-                                        System.out.println(number1+"*"+number2+"="+result);
+                                        System.out.println(number1+"*"+number2+"="+result);//Çıktıları user friendly olması açısından seçimlere özel halde yaptım.
                                         break;
                                 case 2:
                                         result=number1/number2;
