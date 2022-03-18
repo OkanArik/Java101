@@ -38,7 +38,7 @@ public class NotOrtalamasi {
         double averageOfNotes=(double)(matematik+fizik+kimya+turkce+tarih+muzik)/6;
 
         //Not ortalamsını ekrana yazdıralım:
-        System.out.println("Not Ortalamanız:"+averageOfNotes);
+        System.out.println("Not Ortalamanız:"+averageOfNotes);//İnteger veri tipindeki ders notlarının toplamını double çevirip 6 ya bölmemin sebebi sonucu hassas yani küsüratlı görmek istemem oldu.
 
         //Ortalama 50 den büyükse Geçti, küçükse kaldı yazdıralım:
         String durum= averageOfNotes>=50 ? "Geçti!":"Kaldı!";//durum değişkenine averageOfNotes değişkenindeki değer 50 ye eşit veya büyükse Geçti! verisini atadık, aksi durumda ise Kaldı! verisini atadık.
