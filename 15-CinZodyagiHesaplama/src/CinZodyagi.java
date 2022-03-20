@@ -11,7 +11,10 @@ public class CinZodyagi {
 
     public static String burc(int sifir_onbir)
     {
-        /* Map, Java Collections Framework 'un bir üyesidir. Map (gönderim) anahtarları değerlere eşleştiren bir nesnedir. Örneğin, bir ad listesinde her ada bir sıra numarası vermek bir Map (gönderim) işlemidir. Bu işlemde sıra numaralarının her biri bir anahtar, her ad bir değer olur. */
+        /* Map, Java Collections Framework 'un bir üyesidir. Map (gönderim) anahtarları değerlere eşleştiren bir nesnedir.
+        Örneğin, bir ad listesinde her ada bir sıra numarası vermek bir Map (gönderim) işlemidir. 
+        Bu işlemde sıra numaralarının her biri bir anahtar, her ad bir değer olur. */
+        
         Map<Integer,String> burclar = new HashMap<>();
         burclar.put(0,"Maymun");
         burclar.put(1,"Horoz");
