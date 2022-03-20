@@ -41,7 +41,7 @@ public class CinZodyagi {
 
         int dogumYılı = input.nextInt();
 
-        System.out.println(burc(dogumYılı));
+        System.out.println("Çin zodyağı burcunuz : "+burc(dogumYılı));
     }
 
 }
