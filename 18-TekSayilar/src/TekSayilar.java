@@ -12,7 +12,7 @@ public class TekSayilar {
         System.out.println();
     }
 
-    public static int ciftIseToplaTekIseSonlandir(int sayi) {
+    public static int ciftIseTopla(int sayi) {
         if (sayi % 2 == 0)
         {
             return sayi;
@@ -41,7 +41,7 @@ public class TekSayilar {
             sayi =input.nextInt();
             if(sayi%2==1)
                 break;
-            sonuc += ciftIseToplaTekIseSonlandir(sayi);
+            sonuc += ciftIseTopla(sayi);
         }
         System.out.println("Girdiğiniz çift sayıların toplamı : "+sonuc);
     }
