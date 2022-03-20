@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Faktoriyel {
 
-    public static int faktoriyel(int sayi)
+    public static int faktoriyel(int sayi) //Recursion Method
     {
         if (sayi<=1)
             return 1;
