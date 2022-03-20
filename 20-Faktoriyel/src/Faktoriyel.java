@@ -9,8 +9,14 @@ public class Faktoriyel {
 
         return faktoriyel(sayi-1)*sayi;
     }
+
+    public static int kombinasyon(int N, int r)
+    {
+        return faktoriyel(N)/(faktoriyel(r)*faktoriyel(N-r));
+    }
+
     public static void main (String[] args) {
-        int sayi;
+        int sayi , N , r;
 
         Scanner input = new Scanner(System.in);
 
@@ -21,7 +27,16 @@ public class Faktoriyel {
             System.out.println(sayi+"! = "+faktoriyel(sayi));
         else
             System.out.println("Sadece pozitif tam sayıların faktöriyel hesabı olur!");
+
+        System.out.println("N’in r’li kombinasyonu : ");
+        System.out.print("N : ");
+        N = input.nextInt();
+        System.out.print("r :");
+        r = input.nextInt();
+        System.out.println("N’in r’li kombinasyonu ="+kombinasyon(N,r));
+
     }
 }
+
 
 
