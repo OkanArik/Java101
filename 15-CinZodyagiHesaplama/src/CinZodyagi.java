@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class CinZodyagi {
 
-    public static int modOniki(int dogumyılı)
+    public static int modOniki(int dogumyili)
     {
-        return dogumyılı%12;
+        return dogumyili%12;
     }
 
     public static String burc(int sifir_onbir)
@@ -39,9 +39,12 @@ public class CinZodyagi {
 
         System.out.println("Doğum yılınızı giriniz : ");
 
-        int dogumYılı = input.nextInt();
-
-        System.out.println("Çin zodyağı burcunuz : "+burc(dogumYılı));
+        int dogumYili = input.nextInt();
+        
+        if(dogumYili<2022 && dogumYili>1922)
+          System.out.println("Çin zodyağı burcunuz : "+burc(dogumYılı));
+        else 
+          System.out.println("Geçersiz bir doğum yılı girdiniz!");
     }
 
 }
