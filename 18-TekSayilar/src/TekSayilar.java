@@ -25,7 +25,6 @@ public class TekSayilar {
 
     public static void main (String[] args) {
         int sayi,sonuc=0;
-        boolean kontrol= true;
 
         Scanner input = new Scanner(System.in);
 
