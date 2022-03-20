@@ -5,7 +5,7 @@ public class UcakFiyatiHesaplama {
     public static double[] appMonitor()
     {
         Scanner input = new Scanner(System.in);
-        System.out.println("Hoşgeldiniz biligleri giriniz!");
+        System.out.println("Hoşgeldiniz bilgilerinizi  giriniz!");
         double[] selections = new double[3];
         System.out.print("Mesafe (km) : ");
         selections[0]= input.nextDouble();
