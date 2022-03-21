@@ -9,4 +9,4 @@ Java ile girilen sayının harmonik serisini bulan program yazacağız.
 ![Ekran görüntüsü 2022-03-21 024423](https://user-images.githubusercontent.com/89224500/159191112-7a5da4cc-2b5f-44ee-9768-a18e1950495f.png)
 
 
-`Code src folder'ının altındaki HarmonilSeri.java file'ındadır.`
+`Code src folder'ının altındaki HarmonikSeri.java file'ındadır.`
