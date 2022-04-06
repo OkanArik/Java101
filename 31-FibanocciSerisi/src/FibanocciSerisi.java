@@ -2,14 +2,13 @@ import  java.util.Scanner;
 
 public class FibanocciSerisi {
 
+
     public static int fibonacciSerisiNinciSayi(int n)//Recursive ile Fibonacci serisi bulma.
     {
-        if(n==0)
-            return 0;
-        else if(n==1)
+        if(n==1 || n==2)
             return 1;
 
-            return fibonacciSerisiNinciSayi(n-1)+fibonacciSerisiNinciSayi(n-2);
+        return fibonacciSerisiNinciSayi(n-1)+fibonacciSerisiNinciSayi(n-2);
     }
 
     public static void main(String[] args) {
@@ -21,13 +20,12 @@ public class FibanocciSerisi {
         System.out.println("Fibanocci Serisinde n. sayı : "+fibonacciSerisiNinciSayi(n));
 
         System.out.print(n+" elemanlı fibanocci serisi :");
-        for(int i=0 ; i<=n ; i++ )
+        for(int i=1 ; i<=n ; i++ )
         {
             System.out.print("\t"+fibonacciSerisiNinciSayi(i));
         }
     }
 }
-
 
 
 
