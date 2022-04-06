@@ -21,6 +21,11 @@ public class MaxAndMinNumber {
         }
         System.out.println("En büyük sayi : "+maxNumber);
         System.out.println("En küçük sayi : "+minNumber);
+         System.out.print("Girdiğiniz sayilar : ");
+        for(int i =0 ; i<n ; i++)
+        {
+            System.out.print("\t"+numberArray[i]);
+        }
     }
 
 }
